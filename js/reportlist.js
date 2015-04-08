@@ -1,4 +1,4 @@
-var serviceURL = localStorage['serviceURL'];
+var serviceURL = "http://demo.batiactu.info/WebServiceRomain/";
 var scroll = new iScroll('wrapper', { vScrollbar: false, hScrollbar:false, hScroll: false });
 var id = getUrlVars()["id"];
 
@@ -13,7 +13,7 @@ $(document).ajaxError(function(event, request, settings) {
 
 function getReportList() {
 	$('#busy').show();
-	$.getJSON(serviceURL + 'demo.batiactu.info/WebServiceRomain/getreports.php?id='+id, function (data) {
+	$.getJSON(serviceURL + 'getreports.php?id='+id, function (data) {
 		$('#busy').hide();
 		var reports = data.items;
 		$.each(reports, function(index, employee) {
