@@ -1,5 +1,5 @@
 localStorage['serviceURL'] = "http://coenraets.org/apps/directory/services/";
-var serviceURL = "http://demo.batiactu.info/WebServiceRomain";
+var serviceURL = "http://demo.batiactu.info/WebServiceRomain/";
 
 var scroll = new iScroll('wrapper', { vScrollbar: false, hScrollbar:false, hScroll: false });
 
