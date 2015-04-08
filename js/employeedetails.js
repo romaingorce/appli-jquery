@@ -1,4 +1,3 @@
-localStorage['serviceURL'] = "http://demo.batiactu.info/WebServiceRomain/";
 var serviceURL = localStorage['serviceURL'];
 var scroll = new iScroll('wrapper', { vScrollbar: false, hScrollbar:false, hScroll: false });
 
