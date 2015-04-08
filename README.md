@@ -1,1 +1,2 @@
-# appli-jquery
+# Appli
+Appli mobile
