@@ -15,6 +15,7 @@ $(document).ajaxError(function(event, request, settings) {
 
 function getEmployeeList() {
 	$('#busy').show();
+	alert(serviceURL + 'getemployees.php');
 	$.getJSON(serviceURL + 'getemployees.php', function(data) {
 		$('#busy').hide();
 		$('#employeeList li').remove();
